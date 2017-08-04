@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+input {
+  background: white;
+  border: solid 1px #c9c9c9;
+  border-radius: 0;
+  width: calc(415px);
+  max-width: 100%;
+  padding: 0.3em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-family: 'Roboto Mono';
+}
