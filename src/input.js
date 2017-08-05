@@ -9,7 +9,7 @@ export default class extends Component {
 
   render() {
     return (
-      <input placeholder="Enter url" onChange={e => e.persist() || this.onChange(e)} />
+      <input placeholder="http://yandex.ru/" onChange={e => e.persist() || this.onChange(e)} />
     )
   }
 }
